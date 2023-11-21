@@ -1,10 +1,10 @@
-resource "aws_vpc" "terraform4mac" {
+resource "aws_vpc" "main" {
   cidr_block = "10.54.0.0/16"
   
   tags = {
-    name = "koolaid"
-    location = "dallas"
-    owner = "eddy"
+    Name = "main"
+    Location = "dallas"
+    Owner = "eddy"
   }
   
 }
